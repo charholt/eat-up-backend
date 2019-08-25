@@ -9,6 +9,7 @@ const exampleRoutes = require('./app/routes/example_routes')
 const userRoutes = require('./app/routes/user_routes')
 const eventRoutes = require('./app/routes/event_routes')
 const imageRoutes = require('./app/routes/image_upload_routes')
+const groupRoutes = require('./app/routes/group_routes')
 
 // require error handling middleware
 const errorHandler = require('./lib/error_handler')
@@ -64,6 +65,7 @@ app.use(exampleRoutes)
 app.use(userRoutes)
 app.use(eventRoutes)
 app.use(imageRoutes)
+app.use(groupRoutes)
 
 // register error handling middleware
 // note that this comes after the route middlewares, because it needs to be
