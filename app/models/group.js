@@ -10,7 +10,7 @@ const groupSchema = new mongoose.Schema({
     required: true
   },
   guidelines: {
-    type: String,
+    type:String,
     required: false
   },
   owner: {
