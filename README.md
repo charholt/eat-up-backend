@@ -6,12 +6,14 @@ Eat Up (tm) is a scrumptious social site for scheduling your snacking shindigs!!
 #### HOW EAT UP WORKS
 Anyone can browse Eat Up and view food related events, but to really harness the power, sign up and then sign in.  Being a registered user will allow you to create your own events that you’d like to draw the public to.  As a registered user you’ll also be able to RSVP to events of interest to you so you don’t miss a chance to attend those exciting edible endeavors!
 
+A user can now add groups!
+
 #### Links:
-[Deployed Site](https://team-cbam.github.io/eat-up-client/)
+[Deployed Site](https://charholt.github.io/eat-up-client/)
 
-[Front End Github Repo](https://github.com/team-cbam/eat-up-client)
+[Front End Github Repo](https://github.com/charholt/eat-up-client)
 
-[Back End Deployed Site](https://shielded-wildwood-50568.herokuapp.com/)
+[Back End Deployed Site](https://guarded-reef-30901.herokuapp.com/)
 
 #### TECHNOLOGIES USED:
 -   HTML
@@ -63,6 +65,11 @@ Anyone can browse Eat Up and view food related events, but to really harness the
 | POST  | /events  |
 |  PATCH | /events/:id  |
 | DELETE  | /events/:id  |
+| GET  | /groups |
+| GET  |  /groups/:id  |
+| POST  | /groups  |
+|  PATCH | /groups/:id  |
+| DELETE  | /groups/:id  |   |   |
 
 #### Planning, Process & Problem Solving:
 
